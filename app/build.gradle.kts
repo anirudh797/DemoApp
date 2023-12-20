@@ -48,10 +48,11 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     //
-    implementation ("com.androidx.support:appcompat-v7:25.3.1")
-    implementation ("com.androidx.support:recyclerview-v7:25.3.1")
-    implementation ("com.androidx.support:cardview-v7:25.3.1")
+//    implementation ("com.androidx.support:appCom")
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
+//    implementation ("com.androidx.support:cardview-v7:25.3.1")
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.picasso:picasso:2.8")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.github.bumptech.glide:glide:4.13.1")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.2.2")
